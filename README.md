@@ -49,6 +49,16 @@ IPAの**応用情報技術者試験**（Applied Information Technology Engineer 
 
 `変換ログ.md` は、`メモ/`配下のテキストファイルがどのマークダウンファイルに変換されたかを記録するログです。エージェントが変換時に参照し、二重変換を防ぐ目的でも使用されます。
 
+## 推奨VSCode拡張機能
+
+マークダウンファイル内のMermaid図（階層構造などのダイアグラム）をVSCodeのプレビューで表示するには、以下の拡張機能をインストールしてください。
+
+```bash
+code --install-extension bierner.markdown-mermaid
+```
+
+インストール後、`.md`ファイルを開いて `Ctrl+Shift+V` でプレビューを表示すると、GitHub上と同じようにMermaid図が描画されます。
+
 ## 運用フロー
 
 1. `メモ/`配下に学習用のテキストファイル（`.txt`）を格納する。

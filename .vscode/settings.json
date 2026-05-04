@@ -1,5 +1,8 @@
 {
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor"
+  },
+  "files.associations": {
+    "**/.claude/skills/*/SKILL.md": "markdown"
   }
 }
